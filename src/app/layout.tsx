@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import '@arthur.eudeline/starbucks-tp-kit/styles';
 import "./globals.css";
 
 const geistSans = localFont({
