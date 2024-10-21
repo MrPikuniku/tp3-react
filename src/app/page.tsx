@@ -25,13 +25,13 @@ export default function Home() {
           ]}
         
         />
-
-
+        <SectionContainer>
+        { categories.map((categorie)=> 
         <SectionContainer>
           {
-            categories[0].name  
-          }({categories[0].products.length})
-          <ProductGridLayout products={categories[0].products}>
+            categorie.name  
+          }({categorie.products.length})
+          <ProductGridLayout products={categorie.products}>
 	          {(product) => (
               <ProductCardLayout
                 product={product}
@@ -43,179 +43,11 @@ export default function Home() {
             />)}
           </ProductGridLayout>
         </SectionContainer>
+        )
+        }
+      </SectionContainer>
 
-
-        <SectionContainer>
-        {
-            categories[1].name  
-          }({categories[1].products.length})
-          <ProductGridLayout products={categories[1].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-
-        <SectionContainer>
-          {
-            categories[2].name  
-          }({categories[2].products.length})
-          <ProductGridLayout products={categories[2].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[3].name  
-          }({categories[3].products.length})
-          <ProductGridLayout products={categories[3].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[4].name  
-          }({categories[4].products.length})
-          <ProductGridLayout products={categories[4].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[5].name  
-          }({categories[5].products.length})
-          <ProductGridLayout products={categories[5].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[6].name  
-          }({categories[6].products.length})
-          <ProductGridLayout products={categories[6].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[7].name  
-          }({categories[7].products.length})
-          <ProductGridLayout products={categories[7].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[8].name  
-          }({categories[8].products.length})
-          <ProductGridLayout products={categories[8].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[9].name  
-          }({categories[9].products.length})
-          <ProductGridLayout products={categories[9].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
-        <SectionContainer>
-          {
-            categories[10].name  
-          }({categories[10].products.length})
-          <ProductGridLayout products={categories[10].products}>
-	          {(product) => (
-              <ProductCardLayout
-                product={product}
-                button={
-                  <Button variant={"ghost"} fullWidth>
-                    Ajouter au panier
-                  </Button>
-                }
-            />)}
-          </ProductGridLayout>
-        </SectionContainer>
-
+        
         
       </main>
   );
