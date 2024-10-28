@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Consignes du travail 
+Aller sur le lien suivant: https://arthur-eudeline.notion.site/R5-05-R6-05-Programmation-D-veloppement-Avanc-01af3fd9b0604e86b3955a3b5d2c25e9
+
+## Installer les modules importants
+Aller sur ce lien: https://www.npmjs.com/package/@arthur.eudeline/starbucks-tp-kit
+commande: npm install @arthur.eudeline/starbucks-tp-kit
